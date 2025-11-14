@@ -2,7 +2,9 @@
   "name": "scraping-for-job",
   "type": "module",
   "private": true,
-  "module": "index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts"
+  },
   "peerDependencies": {
     "typescript": "^5"
   },
@@ -11,6 +13,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^6.2.0",
-    "@types/bun": "latest"
+    "@tsconfig/node24": "^24.0.2",
+    "@types/bun": "latest",
+    "tsx": "^4.20.6"
   }
 }
